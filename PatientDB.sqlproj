@@ -62,8 +62,8 @@
     <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Users\PatientUser.sql" />
     <Build Include="Tables\Appointment\AppointmentSchedule.sql" />
-    <Build Include="Tables\Users\PatientProfile.sql" />
+    <Build Include="Tables\Users\user_login.sql" />
+    <Build Include="Tables\Users\user_profile.sql" />
   </ItemGroup>
 </Project>
