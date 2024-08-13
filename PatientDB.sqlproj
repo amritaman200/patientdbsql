@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{c6373545-bb69-4b13-85af-d15c5e33c8fc}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,5 +58,12 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Tables\Users" />
+    <Folder Include="Tables\Appointment" />
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Users\PatientUser.sql" />
+    <Build Include="Tables\Appointment\AppointmentSchedule.sql" />
+    <Build Include="Tables\Users\PatientProfile.sql" />
   </ItemGroup>
 </Project>
